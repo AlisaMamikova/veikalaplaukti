@@ -1,0 +1,9 @@
+data_dir: data
+out_dir: runs
+model: tf_efficientnet_b0.ns_jft_in1k
+img_size: 224
+batch_size: 64
+epochs: 10
+lr: 3e-4
+weight_decay: 1e-4
+num_workers: 4
